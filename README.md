@@ -1,7 +1,8 @@
 3-Tier Java Application in AWS
 
 
-![3-Tier AWS Architecture (1)](https://github.com/user-attachments/assets/61203ba3-a9ff-453e-a8ab-9a878c8c25d9)
+
+![3-Tier AWS Architecture](https://github.com/user-attachments/assets/64db6387-9645-4eaf-9f56-f52f1dbc79e8)
 
 
 A 3-Tier Web Application architecture is a client-server architecture that divides the Java application into three tiers. These three tiers are presentation, application, and database.
