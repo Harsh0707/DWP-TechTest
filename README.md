@@ -49,7 +49,7 @@ Tools Used:
 - CloudTrail
 
 
-When different AWS services are used to design 3-Tier applcation it is always a good practice that the infrastructure is immutable and easy to deploy. Such options include IaC (Infrastructure as a code) like Terraform, CI/CI pipeline like Cloudbuild Pipeline/Jenkins and CodeDeploy. 
+When different AWS services are used to design 3-Tier application it is always a good practice that the infrastructure is immutable and easy to deploy. Such options include IaC (Infrastructure as a code) like Terraform, CI/CI pipeline like Cloudbuild Pipeline/Jenkins and CodeDeploy. 
 
 
 
