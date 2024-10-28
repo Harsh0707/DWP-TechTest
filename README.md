@@ -25,7 +25,7 @@ The architecture includes several key AWS components to ensure high availability
 
 - NAT Gateway: providing a managed network address translation (NAT) service to enable instances in private subnets to access the internet or other AWS services while keeping them isolated from the public internet.
 
-- VPC: The VPC & subnets are created within a Multi AZ's region with VPC flow logs enabled to keep track of IP traffic going to and from network interfaces in VPC, it is usefull in production environment.
+- VPC: The VPC & subnets are created within a Multi AZ's region with VPC flow logs enabled to keep track of IP traffic going to and from network interfaces in VPC, it is useful in production environments.
 
 - Security Groups: controlling inbound and outbound traffic to EC2 instances.
 
@@ -37,7 +37,7 @@ The architecture includes several key AWS components to ensure high availability
 
 - Monitoring: using Cloudwatch & CloudTrail to monitor & log Java application events as well as DB's events and also setup alerts in Pagerduty to manage critical incidents.
 
-- Databases: AWS RDS is created within highly AZ's region as data retrieval for the Java application. There is also a read replica for fault tolerance as it continuously copies from primary DB so the data is replicated to point-in-time. 
+- Databases: AWS RDS is created within high AZ's region as data retrieval for the Java application. There is also a read replica for fault tolerance as it continuously copies from primary DB so the data is replicated to point-in-time. 
 
 Tools Used:
 
